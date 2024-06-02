@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d257c47720940e2b41805fd60b1c81, type: 3}
+  m_Name: Habitacion dos puertas
+  m_EditorClassIdentifier: 
+  roomName: habitacion dos puertas
+  description: Ves dos salidas posibles, una al norte y otra al este, ves un objeto
+    en el suelo
+  exits:
+  - direction: norte
+    description: puerta cerrada
+    room: {fileID: 0}
+  - direction: este
+    description: una puerta con luz
+    room: {fileID: 11400000, guid: 4f3e452e241d42a4d8827719e27d715f, type: 2}
+  items:
+  - {fileID: 11400000, guid: ac289cc4739c446e1b2aac3b2566941b, type: 2}
